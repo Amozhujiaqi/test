@@ -69,7 +69,7 @@ public class addBookAction extends ActionSupport{
 	    }
 	    
 	    public void setPublishDate(String PublishDate){
-	    	this.PublishDate=PublishDate;
+	    	
 	    }
 	    
 	    public void setPrice(double Price){

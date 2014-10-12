@@ -38,7 +38,7 @@ public class Author {
 	   }
 	   
 	   public void setName(String Name){
-		   this.Name=Name;
+		   
 	   }
 	   
 	   public void setCountry(String Country){

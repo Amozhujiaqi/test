@@ -49,7 +49,7 @@ public class addAuthorAction extends ActionSupport {
      }
      
      public void setCountry(String Country){
-    	 this.Country=Country;
+    	 
      }
      
      public void setAge(int Age){

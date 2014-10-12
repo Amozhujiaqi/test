@@ -65,7 +65,7 @@ public class AuthorDAO {
 				author.setCountry(rs.getString("Country"));
 			}
 			
-		} catch (SQLException e) {
+		} catch () {
 			e.printStackTrace();
 		}
 		return author;
