@@ -73,6 +73,6 @@ public class addBookAction extends ActionSupport{
 	    }
 	    
 	    public void setPrice(double Price){
-	    	this.Price=Price;
+	    	
 	    }
 }
