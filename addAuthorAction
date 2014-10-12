@@ -53,6 +53,6 @@ public class addAuthorAction extends ActionSupport {
      }
      
      public void setAge(int Age){
-    	 this.Age=Age;
+    	 
      }
 }

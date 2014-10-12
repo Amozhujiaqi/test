@@ -60,14 +60,4 @@ public class AuthorDAO {
 			while(rs.next()){
 				author = new Author();
 				author.setAuthorId(rs.getString("AuthorID"));
-				author.setName(rs.getString("Name"));
-				author.setAge(Integer.parseInt(rs.getString("Age")));
-				author.setCountry(rs.getString("Country"));
-			}
-			
-		} catch () {
-			e.printStackTrace();
-		}
-		return author;
-	}
-}
+				
