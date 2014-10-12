@@ -10,7 +10,6 @@ public class Author {
 	   }
 	   public Author(String AuthorId,String Name,String Country,int Age){
 		   this.AuthorId=AuthorId;
-		   this.Name=Name;
 		   this.Country=Country;
 		   this.Age=Age;
 	   }
