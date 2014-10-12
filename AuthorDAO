@@ -23,10 +23,6 @@ public class AuthorDAO {
 		System.out.println(sql_insert);
 		try {
 			stmt=conn.createStatement();
-			int count=stmt.executeUpdate(sql_insert);
-			if(count!=0){
-				flag=true;
-			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}	
